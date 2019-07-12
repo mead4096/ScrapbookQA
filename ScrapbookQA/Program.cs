@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ScrapbookQA
@@ -14,9 +11,17 @@ namespace ScrapbookQA
         [STAThread]
         static void Main()
         {
+            //Application-wide settings
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            //Allows for renaming of buttons on Windows Forms' defaults msg boxes
+            MessageBoxManager.Yes = "Quit";
+            MessageBoxManager.No = "New Message";
+            MessageBoxManager.Register();
+
+            FormsManager manager = new FormsManager();
+            manager.MainLoop(); //Begins showing forms
         }
     }
 }

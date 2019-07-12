@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<screens>
+  <msgscreen>
+    <msg>Test Msg 1</msg>
+    <msg>Test Msg 2</msg>
+  </msgscreen>
+  <qascreen>
+    <qa>
+      <question>Test1Q</question>
+      <answer>Test1A1</answer>
+      <decoy>Test1A2</decoy>
+      <decoy>Test1A3</decoy>
+      <decoy>Test1A4</decoy>
+    </qa>
+    <qa>
+      <question>Test2Q</question>
+      <answer>Test2A1</answer>
+      <decoy>Test2A2</decoy>
+      <decoy>Test2A3</decoy>
+      <decoy>Test2A4</decoy>
+    </qa>
+  </qascreen>
+</screens>
