@@ -15,4 +15,4 @@ that account to allow less secure apps to access it. Information on enabling thi
 https://support.google.com/accounts/answer/6010255?hl=en
 
 **Pictures**
--Must be re-sized in advance to around 500x500 pixels
+-Must be re-sized in advance to around 500x500 pixels (leeway of a few hundred pixels either direction)

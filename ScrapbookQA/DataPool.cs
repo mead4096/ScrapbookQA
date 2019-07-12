@@ -66,7 +66,7 @@ namespace ScrapbookQA
                     MsgArrayNextRandNdx = MsgIndexRange;
 
                 //Load images
-                ImgArray = Directory.GetFiles(@"..\Pictures");
+                ImgArray = Directory.GetFiles(@"Pictures\");
 
                 //Check # of images
                 int ImgIndexRange = ImgArray.Count() - 1;
